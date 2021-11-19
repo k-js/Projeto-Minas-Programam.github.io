@@ -136,3 +136,41 @@ centro do browser. O container é invisível. */
     margin-bottom: 100px; /**/
     flex-direction: column; /**/
 }
+
+.wrapper-portfolio {
+    background-color: #EAEAEA;
+    display: flex;
+    flex-direction: column;
+}
+
+.subtitulo-lista {
+    font-size: 18px;
+    color: #828282;
+    font-weight: 500;
+}
+
+.footer{
+    background-color: #5a53d8;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+}
+
+.lista-footer li {
+    color: #FFF;
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.link {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.estilo-icon {
+    font-size: 32px;
+    margin-right: 10px;
+}
