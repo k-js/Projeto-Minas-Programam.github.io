@@ -1,0 +1,176 @@
+*{
+ margin: 0;
+ padding: 0;
+ outline: 0;
+}
+
+body {
+    font-family: 'Roboto' , 'sans-serif';
+    margin: 0;
+}
+
+li {
+    list-style: none;
+}
+
+.header-menu {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    padding: 8px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    height: 20px;
+    background-color: #46a54b;
+
+}
+
+.header-menu nav {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.lista-menu {
+    display: flex; /*Colocando os itens na mesma linha*/
+    justify-content: space-evenly; 
+    align-items: center;/*Espaçamento entre eles seja igual*/
+    width: 50%;
+    
+}
+
+/*Pegando os itens com tag a de dentro da nossa lista*/
+.lista-menu li>a {
+    font-size: 23px; /**/
+    color: #FFF; 
+    text-decoration: none;
+}
+
+.principal {
+    height: 100vh; /**/
+    display: flex; /**/
+    background-color: #EAEAEA; /**/
+    height: 90vh;
+}
+
+/* O container é um componente do Bootstrap que garante que o seu layout vai ficar alinhado corretamente na página. 
+Ele pode definir as margens laterais da página, ou deixar sem margens e, também, posiciona o conteúdo no 
+centro do browser. O container é invisível. */
+
+.container {
+    margin-right: auto; /*uma margem automática para todos os lados*/
+    margin-left: auto; /**/
+    max-width: 960px; /*largura maxima*/
+    padding-right: 10px; /* Espaçamento direito*/
+    padding-left: 10px; /*Espaçamento esquerdo*/
+    width: 100%; /*largura*/
+}
+
+.principal div>img {
+    border-radius: 50%;
+}
+
+.subcontainer-principal {
+    display: flex; /**/
+    flex-direction: column; /**/
+    justify-content: center; /**/
+    align-items: center; /**/
+    text-align: center; /**/
+}
+
+.nome-completo {
+    font-size: 36px; /**/
+    color: #2b8a1e; /**/
+    font-weight: 700; /*espessura*/
+    height: 50px; /**/
+}
+
+.profissao {
+    color: #5cad30; /**/
+    height: 35px; /*altura*/
+}
+
+.texto-sobre {
+    font-size: 20px; /**/
+    line-height: 32px; /*Espaçamento entre as linhas*/
+    color: #8eaf7c
+}
+
+.topico-principal {
+    margin-bottom: 10px;
+    font-size: 36px; /**/
+    color: #9cbf49; /**/
+}
+
+.lista-item {
+    padding: 32px; /*espaçamento dos 4 lados*/
+}
+
+.lista-item ul li {
+    margin-bottom: 32px; /*espaçamento entre os items da nossa lista*/
+}
+
+.lista-titulo {
+    margin-bottom: 6px; /*espaçamento entre os items da nossa lista*/
+    font-size: 22px; /**/
+    color: #a1aa8d; /**/
+    font-weight: 700; /**/
+}
+
+.lista-local {
+    font-size: 18px; /**/
+    color: #054120; /**/
+}
+
+.lista-descricao {
+    font-size: 18px; /**/
+    margin-top: 5px; /**/
+    line-height: 20px; /*Espaçamento entre as linhas*/
+    color: #4b8367; /**/
+    font-weight: 300; /**/
+}
+
+.article-lista {
+    display: flex; /**/
+    margin-top: 100px; /**/
+    margin-bottom: 100px; /**/
+    flex-direction: column; /**/
+}
+
+.lista-portifolio {
+    background-color: #EAEAEA;
+    display: flex;
+    flex-direction: column;
+}
+
+.subtitulo-lista {
+    font-size: 18px;
+    color: #828282;
+    font-weight: 500;
+}
+
+.footer{
+    background-color: #57d853;
+    height: 37vh;
+    display: flex;
+    align-items: center;
+}
+
+.lista-footer li {
+    color: #FFF;
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.link {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.estilo-icon {
+    font-size: 42px;
+    margin-right: 25px;
+}
