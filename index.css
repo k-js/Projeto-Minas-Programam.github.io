@@ -1,13 +1,4 @@
-<<<<<<< HEAD
-*{
- margin: 0;
- padding: 0;
- outline: 0;
-}
 
-body {
-    font-family: 'Roboto' , 'sans-serif';
-=======
 /* primeiras propriedades: */
 * {
     /* define a área de margem nos quatro lados do elemento */
@@ -21,26 +12,10 @@ body {
 body {
     /* Definindo a fonte de todo nosso body */
     font-family: 'Roboto', sans-serif;
->>>>>>> 729d25a480b8e20b622d1e770d035b32fe3940ba
     margin: 0;
 }
 
 li {
-<<<<<<< HEAD
-    list-style: none;
-}
-
-.header-menu {
-    display: flex;
-    position: fixed;
-    width: 100%;
-    padding: 8px;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    height: 20px;
-    background-color: #46a54b;
-
-=======
     /* retirando as bolinhas das nossas listas */
     list-style: none;
 }
@@ -58,7 +33,6 @@ https://flexboxfroggy.com/#pt-br */
     padding-top: 32px;/*Espaçamento superior*/
     height: 60px;
     background-color: #938DF8;
->>>>>>> 729d25a480b8e20b622d1e770d035b32fe3940ba
 }
 
 .header-menu nav {
@@ -69,38 +43,25 @@ https://flexboxfroggy.com/#pt-br */
 
 .lista-menu {
     display: flex; /*Colocando os itens na mesma linha*/
-<<<<<<< HEAD
-    justify-content: space-evenly; 
-    align-items: center;/*Espaçamento entre eles seja igual*/
-    width: 50%;
-    
-=======
+
     justify-content: space-evenly; /*Espaçamento entre eles seja igual*/
     width: 50%;
     align-items: center;
->>>>>>> 729d25a480b8e20b622d1e770d035b32fe3940ba
+
 }
 
 /*Pegando os itens com tag a de dentro da nossa lista*/
 .lista-menu li>a {
-<<<<<<< HEAD
-    font-size: 23px; /**/
-    color: #FFF; 
-    text-decoration: none;
-=======
+
     font-size: 18px; /**/
     color: #FFF; /**/
->>>>>>> 729d25a480b8e20b622d1e770d035b32fe3940ba
 }
 
 .principal {
     height: 100vh; /**/
     display: flex; /**/
     background-color: #EAEAEA; /**/
-<<<<<<< HEAD
-    height: 90vh;
-=======
->>>>>>> 729d25a480b8e20b622d1e770d035b32fe3940ba
+
 }
 
 /* O container é um componente do Bootstrap que garante que o seu layout vai ficar alinhado corretamente na página. 
@@ -116,13 +77,6 @@ centro do browser. O container é invisível. */
     width: 100%; /*largura*/
 }
 
-<<<<<<< HEAD
-.principal div>img {
-    border-radius: 50%;
-}
-
-=======
->>>>>>> 729d25a480b8e20b622d1e770d035b32fe3940ba
 .subcontainer-principal {
     display: flex; /**/
     flex-direction: column; /**/
@@ -133,34 +87,16 @@ centro do browser. O container é invisível. */
 
 .nome-completo {
     font-size: 36px; /**/
-<<<<<<< HEAD
-    color: #2b8a1e; /**/
-    font-weight: 700; /*espessura*/
-    height: 50px; /**/
-}
 
-.profissao {
-    color: #5cad30; /**/
-    height: 35px; /*altura*/
-=======
     color: #938DF8; /**/
     font-weight: 700; /*espessura*/
     height: 45px; /**/
->>>>>>> 729d25a480b8e20b622d1e770d035b32fe3940ba
+
 }
 
 .texto-sobre {
     font-size: 20px; /**/
     line-height: 32px; /*Espaçamento entre as linhas*/
-<<<<<<< HEAD
-    color: #8eaf7c
-}
-
-.topico-principal {
-    margin-bottom: 10px;
-    font-size: 36px; /**/
-    color: #9cbf49; /**/
-=======
 }
 
 .profissao {
@@ -171,7 +107,7 @@ centro do browser. O container é invisível. */
 .topico-principal {
     font-size: 36px; /**/
     color: #49BFB3; /**/
->>>>>>> 729d25a480b8e20b622d1e770d035b32fe3940ba
+
 }
 
 .lista-item {
@@ -183,36 +119,25 @@ centro do browser. O container é invisível. */
 }
 
 .lista-titulo {
-<<<<<<< HEAD
-    margin-bottom: 6px; /*espaçamento entre os items da nossa lista*/
-    font-size: 22px; /**/
-    color: #a1aa8d; /**/
-=======
+
     margin-bottom: 5px; /*espaçamento entre os items da nossa lista*/
     font-size: 22px; /**/
     color: #828282; /**/
->>>>>>> 729d25a480b8e20b622d1e770d035b32fe3940ba
     font-weight: 700; /**/
 }
 
 .lista-local {
     font-size: 18px; /**/
-<<<<<<< HEAD
-    color: #054120; /**/
-=======
-    color: #2F80ED; /**/
->>>>>>> 729d25a480b8e20b622d1e770d035b32fe3940ba
+
+    color: #2F80ED; 
 }
 
 .lista-descricao {
     font-size: 18px; /**/
     margin-top: 5px; /**/
     line-height: 20px; /*Espaçamento entre as linhas*/
-<<<<<<< HEAD
-    color: #4b8367; /**/
-=======
     color: #828282; /**/
->>>>>>> 729d25a480b8e20b622d1e770d035b32fe3940ba
+
     font-weight: 300; /**/
 }
 
@@ -223,11 +148,7 @@ centro do browser. O container é invisível. */
     flex-direction: column; /**/
 }
 
-<<<<<<< HEAD
-.lista-portifolio {
-=======
 .wrapper-portfolio {
->>>>>>> 729d25a480b8e20b622d1e770d035b32fe3940ba
     background-color: #EAEAEA;
     display: flex;
     flex-direction: column;
@@ -240,13 +161,9 @@ centro do browser. O container é invisível. */
 }
 
 .footer{
-<<<<<<< HEAD
-    background-color: #57d853;
-    height: 37vh;
-=======
+
     background-color: #5a53d8;
     height: 30vh;
->>>>>>> 729d25a480b8e20b622d1e770d035b32fe3940ba
     display: flex;
     align-items: center;
 }
@@ -254,13 +171,8 @@ centro do browser. O container é invisível. */
 .lista-footer li {
     color: #FFF;
     font-weight: 700;
-<<<<<<< HEAD
-    font-size: 20px;
-    margin-bottom: 20px;
-=======
     font-size: 18px;
     margin-bottom: 16px;
->>>>>>> 729d25a480b8e20b622d1e770d035b32fe3940ba
     display: flex;
     align-items: center;
 }
@@ -271,11 +183,6 @@ centro do browser. O container é invisível. */
 }
 
 .estilo-icon {
-<<<<<<< HEAD
-    font-size: 42px;
-    margin-right: 25px;
-=======
     font-size: 32px;
     margin-right: 10px;
->>>>>>> 729d25a480b8e20b622d1e770d035b32fe3940ba
 }
